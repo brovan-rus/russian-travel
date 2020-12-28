@@ -1,0 +1,9 @@
+.heading {
+  width: calc(704px + 21.875%);
+  height: calc(790px + 43 * 100vw / 256);
+  max-width: 984px;
+  min-height: 962px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

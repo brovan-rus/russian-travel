@@ -1,0 +1,13 @@
+.heading__image-route {
+  background-image: url('../../../images/route.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: calc(670.44px + 5333 * 100vw / 25600);
+  height: calc(188.14px + 1497 * 100vw / 25600);
+  z-index: 2;
+  position: absolute;
+  top: calc(64.51px + 257 * 100vw / 12800);
+  left: calc(16.67px + 33 * 100vw / 6400);
+  max-width: 938px;
+  max-height: 264px;
+}

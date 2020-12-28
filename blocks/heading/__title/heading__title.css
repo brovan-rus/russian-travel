@@ -1,0 +1,12 @@
+.heading__title {
+  width: 720px;
+  height: 200px;
+  margin: 0 0 32px 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 1.04;
+  text-align: center;
+  color: #FFFFFF;
+}
