@@ -1,0 +1,9 @@
+.places__list-element-title {
+  margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 106%;
+  color: #FFFFFF;
+}

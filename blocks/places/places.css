@@ -1,0 +1,3 @@
+.places {
+  width: calc(704px + 7 * 100vw / 32);
+}

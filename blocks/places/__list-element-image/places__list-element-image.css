@@ -1,0 +1,4 @@
+.places__list-element-image {
+  width: 100%;
+  object-fit: contain;
+}
