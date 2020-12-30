@@ -1,0 +1,15 @@
+.cover__text {
+  position: absolute;
+  top: calc(50% + 59px);
+  left: calc(50% - 180px);
+  max-width: 360px;
+  height: 66px;
+  margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+  color: #FFFFFF;
+}
