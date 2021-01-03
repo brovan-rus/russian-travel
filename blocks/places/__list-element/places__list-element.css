@@ -5,3 +5,26 @@
   column-gap: calc(100vw / 32);
   row-gap: 48px;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .places__list-element {
+    grid-template-columns: calc(40px + 25 * 100vw / 64) calc(40px + 13 * 100vw / 32);
+    column-gap: calc(100vw / 64 + 16px);
+  }
+}
+
+
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+  .places__list-element {
+    grid-template-columns: calc(40px + 25 * 100vw / 64) min-content;
+    column-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 320px)  {
+  .places__list-element {
+    grid-template-columns: calc(100vw - 32px);
+  }
+}
+

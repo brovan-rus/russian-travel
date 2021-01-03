@@ -10,3 +10,25 @@
   margin: 0;
   align-self: flex-start;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px)
+{
+  .heading__image-description
+  {
+    margin-left: calc(96px - 3 * 100vw / 32);
+  }
+}
+
+@media screen and (max-width: 768px)
+{
+  .heading__image-description {
+    margin-left: calc(10.29px + 100vw / 56);
+  }
+}
+
+@media screen and (max-width: 320px)
+{
+  .heading__image-description {
+    margin-left: 16px;
+  }
+}

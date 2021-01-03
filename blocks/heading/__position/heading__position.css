@@ -2,3 +2,23 @@
 .heading__position {
   margin-bottom: 92px;
 }
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .heading__position {
+    margin-bottom: calc(100vw / 64 + 76px);
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+  .heading__position {
+    margin-bottom: calc(6 * 100vw / 56 + 46.86px);
+  }
+}
+
+@media screen and (max-width: 320px)  {
+  .heading__position {
+    margin-bottom: 64px;
+  }
+}
+

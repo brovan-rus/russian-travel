@@ -11,3 +11,24 @@
   max-width: 938px;
   max-height: 264px;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px)
+{
+  .heading__image-route {
+    width: calc(76 * 100vw / 256 + 512px);
+    height: calc(43 * 100vw / 256 + 76px);
+    top: calc(15 * 100vw / 256 + 25px);
+    left: calc(100vw / 64 + 6px);
+  }
+}
+
+
+@media screen and (max-width: 768px)
+{
+  .heading__image-route {
+    width: calc(213 * 100vw / 224 + 0.74px);
+    height: calc(15 * 100vw / 56 - 0.74px);
+    top: calc(41 * 100vw / 448 - 0.57px);
+    left: calc(3 * 100vw / 128);
+  }
+}

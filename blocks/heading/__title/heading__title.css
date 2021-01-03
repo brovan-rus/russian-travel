@@ -10,3 +10,16 @@
   text-align: center;
   color: #FFFFFF;
 }
+
+
+@media screen and (max-width: 768px) {
+  .heading__title {
+    width: calc(27 * 100vw / 28 - 20.56px);
+    height: calc(0.25 * 100vw + 8px);
+    min-height: 88px;
+    min-width: 288px;
+    font-size: calc(100vw / 8);
+    line-height: 1.1;
+    margin-bottom: calc(4.57px + 100vw / 28);
+  }
+}

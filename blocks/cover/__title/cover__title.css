@@ -12,5 +12,9 @@
   text-align: center;
   color: #FFFFFF;
   z-index: 2;
-
 }
+
+.cover__title:hover ~ .cover__image{
+    opacity: 0.8;
+}
+

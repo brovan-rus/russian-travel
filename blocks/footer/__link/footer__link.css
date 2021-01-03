@@ -1,14 +1,14 @@
-.places__list-element-link {
+.footer__link {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 122%;
-  text-decoration-line: underline;
+  font-size: 16px;
+  line-height: 1.12;
   color: #FFFFFF;
+  text-decoration: none;
   transition: opacity 0.3s linear;
 }
 
-.places__list-element-link:hover {
+.footer__link:hover {
   opacity: 0.8;
 }

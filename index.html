@@ -68,7 +68,7 @@
             <h2 class="places__list-element-title">Куршская коса</h2>
             <div class="places__list-element-link-container">
               <p class="places__list-element-link-heading"><abbr lang="en">URL</abbr></p>
-              <a class="places__list-element-link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
+              <a class="places__list-element-link" href="http://park-kosa.ru" title="Куршская коса" target="_blank">park-kosa.ru</a>
             </div>
             <img class="places__list-element-image" src="./images/place-kosa.jpg" alt="Фото Куршской косы">
             <div class="places__list-element-text-area">
@@ -81,7 +81,7 @@
             <h2 class="places__list-element-title">Кольский</h2>
             <div class="places__list-element-link-container">
               <p class="places__list-element-link-heading"><abbr lang="en">URL</abbr></p>
-              <a class="places__list-element-link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a>
+              <a class="places__list-element-link" titile="Кольский" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a>
             </div>
             <img class="places__list-element-image" src="./images/place-kolsky.jpg" alt="Фото заснеженных скал Кольского полуострова">
             <div class="places__list-element-text-area">
@@ -95,7 +95,7 @@
             <h2 class="places__list-element-title">Алтай</h2>
             <div class="places__list-element-link-container">
               <p class="places__list-element-link-heading"><abbr lang="en">URL</abbr></p>
-              <a class="places__list-element-link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank">Facebook</a>
+              <a class="places__list-element-link" title="Алтай" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank">Facebook</a>
             </div>
             <img class="places__list-element-image" src="./images/place-altai.jpg" alt="Фото вида из окна на зеленый лес и ноутбука на деревянном подоконнике">
             <div class="places__list-element-text-area">
@@ -110,7 +110,7 @@
              <p class="places__list-element-link-heading">
                <abbr lang="en">URL</abbr>
               </p>
-              <a class="places__list-element-link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
+              <a class="places__list-element-link" href="https://vk.com/baikalmile" title="Зимний Байкал" target="_blank">https://vk.com/baikalmile</a>
             </div>
             <img class="places__list-element-image" src="./images/place-winter-baikal.jpg" alt="Фото трещин на льду озера Байкал">
            <div class="places__list-element-text-area">
@@ -125,7 +125,7 @@
              <p class="places__list-element-link-heading">
                <abbr lang="en">URL</abbr>
               </p>
-              <a class="places__list-element-link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
+              <a class="places__list-element-link" href="http://vodlozero.ru" title="Карелия" target="_blank">http://vodlozero.ru/</a>
             </div>
             <img class="places__list-element-image" src="./images/place-karelia.jpg" alt="Фото лесного озера">
            <div class="places__list-element-text-area">
@@ -135,16 +135,27 @@
           </li>
         </ul>
       </section>
-      <section class="cover cover__position">
-        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" title="До Байкала на собаках" target="_blanc">
 
-          <img src="./images/cover-trains.jpg" alt="Фото сортировочной станции грузовых вагонов в лучах рассветного солнца" class="cover__image">
+      <section class="cover cover__position">
+          <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" title="До Байкала на собаках" target="_blank">
           <h2 class="cover__title">До Байкала «на собаках»</h2>
           <p class="cover__text">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+          <img src="./images/cover-trains.jpg" alt="Фото сортировочной станции грузовых вагонов в лучах рассветного солнца" class="cover__image">
+
+        </a>
       </section>
     </main>
 
-    <footer class="footer"></footer>
+    <footer class="footer footer__position">
+      <ul class="footer__link-area">
+        <li><a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
+        <li><a  class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
+        <li><a  class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
+        <li><a  class="footer__link" href="https://calendar.yandex.ru" target="_blank">Каледнарь</a></li>
+        <li><a  class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
+      </ul>
+      <p class="footer__author">&copy; 2020. Бровцев Константин Михайлович</p>
+    </footer>
 
   </div>
 </body>

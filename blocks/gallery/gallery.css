@@ -15,3 +15,28 @@
 }
 
 
+@media screen and (min-width: 768px) and (max-width: 1024px)
+{
+  .gallery
+  {
+    max-width: calc(100vw - (3 * 100vw / 16 - 96px));
+  }
+}
+
+
+@media screen and (min-width: 321px) and (max-width: 767px)
+{
+  .gallery
+  {
+    max-width: calc(100vw - (20.57px + 100vw / 28));
+  }
+}
+
+@media screen and (max-width: 320px)
+{
+  .gallery
+    {
+    max-width: 90%;
+    gap: 12px;
+  }
+}

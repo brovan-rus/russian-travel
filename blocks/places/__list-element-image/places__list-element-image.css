@@ -2,3 +2,11 @@
   width: 100%;
   object-fit: contain;
 }
+
+@media screen and (max-width: 320px)  {
+  .places__list-element-image {
+    width: 100vw;
+    margin-left: -16px;
+    object-fit: contain;
+  }
+}
