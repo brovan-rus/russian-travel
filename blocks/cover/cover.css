@@ -1,7 +1,23 @@
 .cover {
   position: relative;
-  max-width: calc(384px + 5 * 100% / 8);
+  width: calc(384px + 5 * 100% / 8);
+  height: calc(240px + 25 * 100vw / 64);
+  background-image: url('../../images/cover-trains.jpg');
+  background-size: cover;
 }
+
+.cover::after {
+content: ' ';
+position: absolute;
+left: 0; right: 0; top: 0; bottom: 0;
+background-color: rgba(0,0,0,.8);
+transition: all 0.7s ease-in;
+}
+
+.cover:hover::after {
+  background-color: rgba(0,0,0,.2);
+}
+
 
 @media screen and  (max-width: 1024px)
 {
@@ -10,3 +26,4 @@
     width: 100%;
   }
 }
+

@@ -12,8 +12,5 @@
   line-height: 1.22;
   text-align: center;
   color: #FFFFFF;
-}
-
-.cover__text:hover ~ .cover__image{
-  opacity: 0.8;
+  z-index: 2;
 }
