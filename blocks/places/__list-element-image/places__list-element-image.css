@@ -3,7 +3,7 @@
   object-fit: contain;
 }
 
-@media screen and (max-width: 320px)  {
+@media screen and (max-width: 595px)  {
   .places__list-element-image {
     width: 100vw;
     margin-left: -16px;
