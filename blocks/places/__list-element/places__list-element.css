@@ -25,6 +25,7 @@
 @media screen and (max-width: 320px)  {
   .places__list-element {
     grid-template-columns: calc(100vw - 32px);
+    row-gap: 32px;
   }
 }
 

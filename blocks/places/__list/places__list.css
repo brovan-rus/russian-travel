@@ -14,3 +14,15 @@
    row-gap: calc(52px + 7 * 100vw / 256);
   }
 }
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+  .places__list {
+   row-gap: calc(33.57px + 23 * 100vw / 448);
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .places__list {
+   row-gap: 50px;
+  }
+}

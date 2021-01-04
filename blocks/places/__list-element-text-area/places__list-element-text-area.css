@@ -5,3 +5,10 @@
   grid-auto-rows: min-content;
   row-gap: 26px;
 }
+
+
+@media screen and (max-width: 720px) {
+  .places__list-element-text-area {
+    row-gap: 25px;
+  }
+}
