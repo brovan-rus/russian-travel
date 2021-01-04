@@ -18,12 +18,10 @@ transition: all 0.7s ease-in;
   background-color: rgba(0,0,0,.2);
 }
 
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 100vw;
+    height: calc(5 * 100vw / 8);
 
-@media screen and  (max-width: 1024px)
-{
-  .cover
-  {
-    width: 100%;
   }
 }
-

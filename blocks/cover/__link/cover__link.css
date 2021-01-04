@@ -7,7 +7,3 @@
   width: 100%;
   z-index: 1;
 }
-
-.cover__link:hover {
-  background-color: rgba(0,0,0,.2);
-}

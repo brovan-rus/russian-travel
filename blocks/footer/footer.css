@@ -4,3 +4,18 @@
   width: calc(100vw - 96px);
   max-width: 1184px;
 }
+
+@media screen and (max-width:1024px) and (min-width: 767px) {
+  .footer {
+    width: calc(100vw - (3 * 100vw / 16 - 96px));
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content min-content;
+    row-gap: 48px;
+  }
+}

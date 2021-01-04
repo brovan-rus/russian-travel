@@ -10,3 +10,23 @@
     margin: 0 48px 92px 48px;
   }
 }
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .cover__position {
+    margin-bottom: calc(47.86px + 3 * 100vw / 56);
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .cover__position {
+    margin-bottom: calc(76px + 100vw/64);
+  }
+}
+
+@media screen and (max-width: 320px)  {
+  .cover__position {
+    margin-bottom: 64px;
+  }
+}
+
+

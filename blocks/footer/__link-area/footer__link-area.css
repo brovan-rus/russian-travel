@@ -7,3 +7,11 @@
   padding: 0;
   margin: 0;
 }
+
+@media screen and (max-width: 595px) {
+  .footer__link-area {
+    grid-template-columns: min-content;
+    grid-template-rows: repeat(5, min-content);
+    row-gap: 32px;
+  }
+}

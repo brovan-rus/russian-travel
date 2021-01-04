@@ -12,3 +12,17 @@
 .footer__link:hover {
   opacity: 0.8;
 }
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .footer__link  {
+    font-size: calc(29.82px - 100vw / 55);
+    line-height: calc(28.36px - 3 * 100vw / 220);
+  }
+}
+
+@media screen and (max-width: 320px)  {
+  .footer__link  {
+    font-size: 24px;
+    line-height: 1;
+  }
+}

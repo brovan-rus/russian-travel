@@ -1,3 +1,17 @@
+/*Отдельный элемент для позиционирования отступов внешней геометрии блока*/
+
 .footer__position {
 margin: 0 48px 24px 48px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .footer__position {
+    margin-bottom: calc(3 * 100vw / 56 + 48.86px);
+  }
+}
+
+@media screen and (max-width: 320px)  {
+  .footer__position {
+    margin: 0 0 24px 16px;
+  }
 }

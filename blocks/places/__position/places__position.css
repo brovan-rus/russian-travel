@@ -6,7 +6,7 @@
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
   .places__position {
-    margin-bottom: calc(3 * 100vw / 56 + 48.86);
+    margin-bottom: calc(3 * 100vw / 56 + 48.86px);
   }
 }
 
