@@ -1,7 +1,4 @@
 .cover__text {
-  position: absolute;
-  top: calc(50% + 59px);
-  left: calc(50% - 180px);
   max-width: 360px;
   height: 66px;
   margin: 0;
@@ -19,8 +16,6 @@
   .cover__text  {
     font-size: calc(12.57px + 100vw / 224);
     line-height: calc(15.14px + 100vw / 112);
-    top: calc(45 *  100vw / 112 - 9.57px);
-    left: calc(47 * 100vw / 112 - 118.29px);
     width: calc(236.57px + 9 * 100vw / 56);
   }
 }
@@ -30,7 +25,5 @@
     width: 90%;
     font-size: 14px;
     line-height: 1.14;
-    top: 119px;
-    left: 16px;
   }
 }
