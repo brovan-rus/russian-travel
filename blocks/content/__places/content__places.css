@@ -1,17 +1,16 @@
-/*Отдельный элемент для позиционирования отступов внешней геометрии блока*/
-.places__position {
+.content__places {
   margin: 0 0 92px 0;
 }
 
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
-  .places__position {
+  .content__places {
     margin-bottom: calc(3 * 100vw / 56 + 48.86px);
   }
 }
 
 @media screen and (max-width: 320px)  {
-  .places__position {
+  .content__places {
     margin-bottom: 66px;
   }
 }
