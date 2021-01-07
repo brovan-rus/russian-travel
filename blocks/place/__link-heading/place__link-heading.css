@@ -1,4 +1,4 @@
-.places__list-element-link-heading {
+.place__link-heading {
   margin: 0 0 12px 0;
   font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   font-style: normal;
@@ -11,7 +11,7 @@
 
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  .places__list-element-link-heading {
+  .place__link-heading {
    line-height: calc(100vw / 32 - 12px);
   }
 }

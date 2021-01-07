@@ -1,4 +1,4 @@
-.places__list-element-text-area {
+.place__text-area {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: min-content;
@@ -8,7 +8,13 @@
 
 
 @media screen and (max-width: 720px) {
-  .places__list-element-text-area {
+  .place__text-area {
     row-gap: 25px;
+  }
+}
+
+@media screen and (max-width: 595px)  {
+  .place__text-area {
+    margin: 0 16px;
   }
 }

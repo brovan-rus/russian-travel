@@ -1,6 +1,6 @@
 .heading__title {
   width: 720px;
-  height: 200px;
+  min-height: 200px;
   margin: 0 0 32px 0;
   font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   font-style: normal;

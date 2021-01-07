@@ -1,4 +1,4 @@
-.places__list-element {
+.place {
   display: grid;
   grid-template-columns: calc(360px + 5 * 100vw / 64) calc(344px + 7 * 100vw / 64);
   grid-template-rows: min-content 1fr;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  .places__list-element {
+  .place {
     grid-template-columns: calc(40px + 25 * 100vw / 64) calc(40px + 13 * 100vw / 32);
     column-gap: calc(100vw / 64 + 16px);
   }
@@ -16,7 +16,7 @@
 
 
 @media screen and (min-width: 321px) and (max-width: 767px) {
-  .places__list-element {
+  .place {
     grid-template-columns: calc(40px + 25 * 100vw / 64) calc(100vw - ((85px + 25 * 100vw / 64)));
     column-gap: 20px;
   }
@@ -24,7 +24,7 @@
 
 @media screen and (max-width: 595px)  {
   .places__list-element {
-    grid-template-columns: calc(100vw - 32px);
+    grid-template-columns: 100%;
     row-gap: 32px;
   }
 }

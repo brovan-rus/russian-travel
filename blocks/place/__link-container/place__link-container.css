@@ -1,0 +1,9 @@
+.place__link-container {
+  align-self: end;
+}
+
+@media screen and (max-width: 595px)  {
+  .place__link-container {
+    margin: 0 16px;
+  }
+}

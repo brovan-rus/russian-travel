@@ -1,5 +1,5 @@
 .heading {
-  height: calc(790px + 43 * 100vw / 256);
+  min-height: calc(790px + 43 * 100vw / 256);
   width: calc(704px + 7 * 100% / 32);
   max-width: 984px;
   display: flex;
@@ -11,22 +11,14 @@
 {
   .heading {
     width: calc(5 * 100% / 8 + 288px);
-    height: calc(25 * 100vw / 64 + 562px);
+    min-height: calc(25 * 100vw / 64 + 562px);
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 788px) {
   .heading {
     width: 100%;
-    height: calc(80.29px + 1.018 * 100vw);
-  }
-}
-
-
-@media screen and (max-width: 320px) {
-  .heading__position {
-    height: auto;
-    width: 100%;
+    min-height: calc(80.29px + 1.018 * 100vw);
   }
 }
 

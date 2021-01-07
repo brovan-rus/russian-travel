@@ -1,4 +1,4 @@
-.places__list-element-link {
+.place__link {
   font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -9,6 +9,6 @@
   transition: opacity 0.3s linear;
 }
 
-.places__list-element-link:hover {
+.place__link:hover {
   opacity: 0.8;
 }

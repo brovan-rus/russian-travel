@@ -1,4 +1,4 @@
-.places__list-element-title {
+.place__title {
   margin: 0;
   font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   font-style: normal;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  .places__list-element-title {
+  .place__title {
    font-size: calc(15 * 100vw / 128 - 48px);
    line-height: calc(15 * 100vw / 128 - 44px);
   }
@@ -17,15 +17,16 @@
 
 
 @media screen and (min-width: 321px) and (max-width: 767px) {
-  .places__list-element-title {
+  .place__title {
     font-size: calc(5 * 100vw / 224 + 24.86px);
     line-height: calc(11 * 100vw / 448 + 27.14px);
   }
 }
 
 
-@media screen and (max-width: 320px)  {
-  .places__list-element-title {
+@media screen and (max-width: 595px)  {
+  .place__title {
+    margin: 0 16px;
     font-size: 32px;
     line-height: 1.09;
   }
