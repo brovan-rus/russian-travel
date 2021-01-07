@@ -10,7 +10,6 @@
   color: #FFFFFF;
   z-index: 2;
   margin-bottom: 32px;
-
 }
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
@@ -19,7 +18,6 @@
     line-height: calc(5.71px + 41 * 100vw / 448);
     margin-bottom: calc(4.57px + 100vw/28);
     width: calc(93.71px + 17 * 100vw / 28);
-
   }
 }
 

@@ -3,9 +3,10 @@
   padding: 0;
   list-style-type: none;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 100%;
   grid-template-rows: repeat(5, min-content);
   row-gap: 80px;
+  /*width: 100%;*/
 }
 
 
@@ -21,8 +22,10 @@
   }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
   .places__list {
    row-gap: 50px;
   }
 }
+
+

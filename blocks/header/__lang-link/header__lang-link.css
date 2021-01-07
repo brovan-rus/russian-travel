@@ -14,6 +14,13 @@
   opacity: 0.8;
 }
 
+@media screen and (max-width: 767px) {
+  .header__lang-link {
+    font-size: calc(3 * 100vw / 244 + 13.71px);
+    line-height: calc(100vw / 56 + 14.29px);
+  }
+}
+
 /*.header__lang-link:last-of-type {
   margin-right: 0;
 }
