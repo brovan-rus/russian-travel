@@ -10,12 +10,21 @@
   }
 }
 
-
+/*
+Будет применен вариант без ограничения 321px
 @media screen and (min-width: 321px) and (max-width: 767px) {
   .places {
     width: calc(34.29px + 25 * 100vw / 28);
   }
 }
+*/
+
+@media screen and (max-width: 767px) {
+  .places {
+    width: calc(34.29px + 25 * 100vw / 28);
+  }
+}
+
 
 @media screen and (max-width: 595px) {
   .places {

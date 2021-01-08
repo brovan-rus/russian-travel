@@ -22,6 +22,7 @@
   }
 }
 
+
 @media screen and (max-width: 320px) {
   .places__list {
    row-gap: 50px;

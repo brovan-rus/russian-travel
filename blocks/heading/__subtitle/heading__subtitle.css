@@ -7,7 +7,6 @@
   text-align: center;
   color: #FFFFFF;
   width: 640px;
-  min-height: 72px;
   margin: 0 0 56px 0;
 }
 
@@ -15,7 +14,6 @@
   .heading__subtitle {
     width: calc(11 * 100vw / 14 + 36.57px);
     height: calc(100vw / 14 + 17.14px);
-    min-height: 40px;
     min-width: 288px;
     font-size: calc(100vw / 32 + 6px);
     line-height: calc(8.57px + 100vw / 28);

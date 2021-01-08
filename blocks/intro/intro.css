@@ -10,20 +10,20 @@
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .intro {
     align-self: center;
-    max-width: calc(810px - 15 * 100vw / 128);
+    width: calc(810px - 15 * 100vw / 128);
   }
 }
 
 @media screen and (min-width: 321px) and (max-width: 767px) {
   .intro {
     align-self: center;
-    max-width: calc(27 * 100vw / 28 - 20.57px);
+    width: calc(27 * 100vw / 28 - 20.57px);
   }
 }
 
 @media screen and (max-width: 320px)  {
   .intro {
     align-self: center;
-    max-width: calc(100% - 32px);
+    width: calc(100% - 32px);
   }
 }

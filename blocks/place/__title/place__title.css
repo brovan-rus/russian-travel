@@ -16,7 +16,7 @@
 }
 
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 596px) and (max-width: 767px) {
   .place__title {
     font-size: calc(5 * 100vw / 224 + 24.86px);
     line-height: calc(11 * 100vw / 448 + 27.14px);

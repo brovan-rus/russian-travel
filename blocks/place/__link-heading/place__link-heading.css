@@ -9,9 +9,14 @@
   color: #AAAAAA;
 }
 
-
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .place__link-heading {
    line-height: calc(100vw / 32 - 12px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__link-heading {
+   line-height: 1;
   }
 }
