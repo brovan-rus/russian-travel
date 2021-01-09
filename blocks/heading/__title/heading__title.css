@@ -1,7 +1,5 @@
 .heading__title {
   width: 720px;
-  /* Без задания высоты расхождение с макетом около 2px
-  min-height: 200px; */
   margin: 0 0 32px 0;
   font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   font-style: normal;
@@ -16,7 +14,6 @@
 @media screen and (max-width: 768px) {
   .heading__title {
     width: calc(27 * 100vw / 28 - 20.56px);
-    height: calc(0.25 * 100vw + 8px);
     min-width: 288px;
     font-size: calc(100vw / 8);
     line-height: 1.1;

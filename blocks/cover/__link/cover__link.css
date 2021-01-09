@@ -24,7 +24,7 @@
 }
 
 .cover__link:hover::after {
-  background-color: rgba(0,0,0,.8);
+  background-color: rgba(42,44,47,.8);
 }
 
 @media screen and (max-width: 1040px) {
